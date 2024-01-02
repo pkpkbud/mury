@@ -15,7 +15,7 @@ Szczegółowy opis działania zawarty jest w [instrukcji](#instrukcja).
 Cena **600,- zł** netto za licencję wieczystą, na fakturze kwota będzie powiększona
 o podatek VAT w wysokości 23%.
 
-Wymagana jest aktualizacja programu **ABC** do wersji minimum 6.24 zgodnie z
+Wymagana jest aktualizacja programu **ABC Płyta** do wersji minimum 6.24 zgodnie z
 [cennikiem](https://www.pro-soft.gliwice.pl/cennik.html).
 Do pobrania, aktualizacji oraz autoryzacji modułu wymagane jest połączenie z siecią.
 
@@ -24,7 +24,7 @@ drugi i trzeci egzemplarz - 40%, czwarty i dalsze egzemplarze - 60%.
 
 Zakupy w formie grupowej prowadzi firma [TINSERWIS](https://www.tinserwis.pl/),
 gdzie można uzyskać maksymalnie 50% rabatu. Istnieje możliwość dzierżawy modułu razem
-z programami **ABC**. W celu zakupu i dzierżawy prosimy o [kontakt](#kontakt).
+z programem **ABC Płyta**. W celu zakupu i dzierżawy prosimy o [kontakt](#kontakt).
 
 ```
 Moduł podlega ochronie prawa autorskiego bez udzielania jakiejkolwiek gwarancji.
@@ -41,15 +41,12 @@ na przetwarzanie swoich danych osobowych w celu obsługi zakupu licencji.
 Plik instalacyjny pobieramy w zależności od tego, jaki program **ABC** posiadamy na
 kluczu USB.
 
-W przypadku posiadania kilku kluczy USB, moduł instalujemy kilka razy w lokalizacji
-programu **ABC**.
-
 Wybieramy jeden z poniższych linków, aby rozpocząć pobieranie:
 
 - [Mam kilka programów **ABC** na kluczu USB](https://github.com/pkpkbud/mury/releases/download/0.1.0/Mury-ABC6-0.1.0-win32.msi)
 - [Mam tylko **ABC Płyta** na kluczu USB](https://github.com/pkpkbud/mury/releases/download/0.1.0/Mury-ABC6p-0.1.0-win32.msi)
 
-Moduł instalujemy w lokalizacji programu **ABC** w folderze *EXE*
+Moduł instalujemy w lokalizacji programu **ABC Płyta** w folderze *EXE*
 (np. *C:\ABC6\EXE*).
 
 Spis zmian oraz poprzednie wersje są dostępne w serwisie
@@ -73,13 +70,13 @@ Moduł można uruchomić samodzielnie w trybie kalkulatora. W tym celu należy u
 skrót z pulpitu albo plik `sciana.exe` z lokalizacji instalacji (np. *C:\ABC6\EXE*).
 Przy uruchamianiu można wybrać plik zadania z końcówką *.MUR* w celu wczytania wcześniej
 zapisanych wyników. Przy zamykaniu można zapisać wyniki do pliku z końcówką *.MUR*.
-Pierwsze uruchomienie należy wykonać z poziomu programu **ABC**.
+Pierwsze uruchomienie należy wykonać z poziomu programu **ABC Płyta**.
 
 W programie **ABC Płyta** dla podpór typu `Ściana` można zaprojektować ścianę murową.
 W wynikach zadania w menu `Wymiar` dostępna jest opcja `Projektowanie ściany`.
-W przypadku, gdy ta możliwość nie jest dostępna trzeba zaktualizować program **ABC**
-do wersji 6.24, włączyć pełny zakres menu w **ABC** przyciskiem "M" lub wybrać z menu
-opcję `Pokaż → Wybór wymiarowania`.
+W przypadku, gdy ta możliwość nie jest dostępna trzeba zaktualizować program
+**ABC Płyta** do wersji 6.24, włączyć pełny zakres menu przyciskiem "M" lub wybrać
+z menu opcję `Pokaż → Wybór wymiarowania`.
 
 ![image](https://github.com/pkpkbud/mury/assets/55211992/2ac5cf3e-1e1c-496f-bb2d-ea8a488f2fc2)
 
@@ -129,8 +126,8 @@ normy *PN-EN 1991-1-4* zostaje wprowadzone jako obciążenie prostopadłe do pow
 
 Po włączeniu opcji `Własne` wszystkie wartości obciążeń można dowolnie modyfikować
 oraz można wybrać wariant z obwiedni sił. Przycisk `Zeruj` zeruje wszystkie obciążenia.
-Ponowne wciśnięcie przywraca wartości przed zerowaniem. W **ABC Płyta** wymiary ściany
-są pobierane z opisu podpory. W innych przypadkach są przyjmowane wartości domyślne.
+Ponowne wciśnięcie przywraca wartości przed zerowaniem. Wymiary ściany są pobierane
+z opisu podpory lub są przyjmowane wartości domyślne.
 
 ![image](https://github.com/pkpkbud/mury/assets/55211992/66ef1b7e-589a-4f23-8f38-7a03d85e722b)
 
