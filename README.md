@@ -43,8 +43,8 @@ kluczu USB.
 
 Wybieramy jeden z poniższych linków, aby rozpocząć pobieranie:
 
-- [Mam kilka programów **ABC** na kluczu USB](https://github.com/pkpkbud/mury/releases/download/0.1.0/Mury-ABC6-0.1.0-win32.msi)
-- [Mam tylko **ABC Płyta** na kluczu USB](https://github.com/pkpkbud/mury/releases/download/0.1.0/Mury-ABC6p-0.1.0-win32.msi)
+- [Mam kilka programów **ABC** na kluczu USB](https://github.com/pkpkbud/mury/releases/download/0.2.0/Mury-ABC6-0.2.0-win32.msi)
+- [Mam tylko **ABC Płyta** na kluczu USB](https://github.com/pkpkbud/mury/releases/download/0.2.0/Mury-ABC6p-0.2.0-win32.msi)
 
 Moduł instalujemy w lokalizacji programu **ABC Płyta** w folderze *EXE*
 (np. *C:\ABC6\EXE*).
@@ -98,17 +98,17 @@ projektowanego miejsca.
 
 ### Usztywnienia
 
-![image](https://github.com/pkpkbud/mury/assets/55211992/ec1e8a4b-26ae-4ecb-b312-42438eb52c6b)
+![image](https://github.com/pkpkbud/mury/assets/55211992/d6820d3e-6211-4e02-ac28-bbe952d335e3)
 
-W oknie można wybrać dla każdego z węzłów czy jego krawędź pionowa jest `podparta`
-czy `swobodna`. Wybór ten ma wpływ na wysokość efektywną ściany, wartości momentów
+W oknie można wybrać dla każdego z węzłów czy jego krawędź pionowa jest `Podparta`
+czy `Swobodna`. Wybór ten ma wpływ na wysokość efektywną ściany, wartości momentów
 gnących (schemat statyczny belki w przypadku braku usztywnień lub płyty) oraz stan
 graniczny użytkowalności (sprawdzenie ograniczenia wysokości i długości ściany
 w zależności od jej grubości zgodnie z załącznikiem F normy *PN-EN 1996-1-1*).
 
 ### Projektowanie
 
-![image](https://github.com/pkpkbud/mury/assets/55211992/94ff973d-6a2a-4365-b92f-24c0bd5d6fcc)
+![image](https://github.com/pkpkbud/mury/assets/55211992/3f6e9a11-43e2-4ecc-9b0f-1da854dc7517)
 
 Po wprowadzeniu danych na pierwszej planszy można przyciskiem `OK` przejść do planszy
 głównej modułu. Na niej przeprowadzane jest całe projektowanie. Składa się z opisanych
@@ -116,13 +116,17 @@ poniżej elementów.
 
 **Ramki z danymi u góry**, gdzie podobnie jak na pierwszej planszy należy podać
 wartości, tym razem dotyczące przyjętych założeń projektowych, materiałów, wymiarów
-oraz obciążeń obliczeniowych. `Opis` można dowolnie modyfikować, domyślnie wpisane
-są numery węzłów. W celu policzenia ściany jako metrowego pasma należy odznaczyć
-opcję `Długość`. Przycisk `Wiatr` otwiera okno, gdzie po wprowadzeniu danych
-dotyczących lokalizacji oraz obiektu budowlanego, oddziaływanie wiatru według
-normy *PN-EN 1991-1-4* zostaje wprowadzone jako obciążenie prostopadłe do powierzchni.
+oraz obciążeń obliczeniowych. Opcja `Typowy` pozwala na wybór elementu murowego
+z listy i automatyczne uzupełnienie parametrów elementu murowego oraz ciężaru.
+`Opis` można dowolnie modyfikować, domyślnie wpisane są numery węzłów.
+W celu policzenia ściany jako metrowego pasma należy odznaczyć opcję `Długość`.
+Przycisk `Wiatr` otwiera okno, gdzie po wprowadzeniu danych dotyczących lokalizacji
+oraz obiektu budowlanego, oddziaływanie wiatru według normy *PN-EN 1991-1-4*
+zostaje wprowadzone jako obciążenie prostopadłe do powierzchni.
+Jeżeli jest zadana długość ściany i nie ma zadanych usztywnień pionowych krawędzi,
+możemy określić inne niż długość ściany pasmo zbierania obciążenia od wiatru.
 
-![image](https://github.com/pkpkbud/mury/assets/55211992/dcd5af4a-0f9e-4500-9c04-439e4b6307d5)
+![image](https://github.com/pkpkbud/mury/assets/55211992/e216c58e-a01b-46da-a9c1-68bf54de9eb4)
 
 Po włączeniu opcji `Własne` wszystkie wartości obciążeń można dowolnie modyfikować
 oraz można wybrać wariant z obwiedni sił. Przycisk `Zeruj` zeruje wszystkie obciążenia.
