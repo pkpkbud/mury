@@ -43,8 +43,8 @@ kluczu USB.
 
 Wybieramy jeden z poniższych linków, aby rozpocząć pobieranie:
 
-- [Mam kilka programów **ABC** na kluczu USB](https://github.com/pkpkbud/mury/releases/download/0.2.0/Mury-ABC6-0.2.0-win32.msi)
-- [Mam tylko **ABC Płyta** na kluczu USB](https://github.com/pkpkbud/mury/releases/download/0.2.0/Mury-ABC6p-0.2.0-win32.msi)
+- [Mam kilka programów **ABC** na kluczu USB](https://github.com/pkpkbud/mury/releases/download/1.0.0/Mury-ABC6-1.0.0-win32.msi)
+- [Mam tylko **ABC Płyta** na kluczu USB](https://github.com/pkpkbud/mury/releases/download/1.0.0/Mury-ABC6p-1.0.0-win32.msi)
 
 Moduł instalujemy w lokalizacji programu **ABC Płyta** w folderze *EXE*
 (np. *C:\ABC6\EXE*).
@@ -94,21 +94,25 @@ wcześniej zadane miejsca.
 
 Po zatwierdzeniu obciążeń plansza zostanie zamknięta i pokaże się rysunek modelu.
 Pojawią się podpory liniowe typu `Ściana`, należy wybrać dwa skrajne węzły
-projektowanego miejsca.
+projektowanego miejsca. Punkty należy wybierać między innymi ścianami, między ścianą
+i otworem lub pomiędzy otworami. Alternatywnie można wybrać dowolne punkty na długości
+ściany w celu sprawdzenia wybranego obszaru ściany pod obciążeniem skupionym.
 
 ### Usztywnienia
 
-![image](https://github.com/pkpkbud/mury/assets/55211992/d6820d3e-6211-4e02-ac28-bbe952d335e3)
+![image](https://github.com/pkpkbud/mury/assets/55211992/e0f09661-a57a-4d7b-bb9f-3a5e87758dfe)
 
 W oknie można wybrać dla każdego z węzłów czy jego krawędź pionowa jest `Podparta`
 czy `Swobodna`. Wybór ten ma wpływ na wysokość efektywną ściany, wartości momentów
 gnących (schemat statyczny belki w przypadku braku usztywnień lub płyty) oraz stan
 graniczny użytkowalności (sprawdzenie ograniczenia wysokości i długości ściany
 w zależności od jej grubości zgodnie z załącznikiem F normy *PN-EN 1996-1-1*).
+Opcja `Ściana obciążona siłą skupioną` pozwala na sprawdzenie wybranego obszaru
+ściany pod obciążeniem skupionym.
 
 ### Projektowanie
 
-![image](https://github.com/pkpkbud/mury/assets/55211992/3f6e9a11-43e2-4ecc-9b0f-1da854dc7517)
+![image](https://github.com/pkpkbud/mury/assets/55211992/099dc52d-71c9-45ca-8b9d-762376b989ad)
 
 Po wprowadzeniu danych na pierwszej planszy można przyciskiem `OK` przejść do planszy
 głównej modułu. Na niej przeprowadzane jest całe projektowanie. Składa się z opisanych
@@ -119,21 +123,26 @@ wartości, tym razem dotyczące przyjętych założeń projektowych, materiałó
 oraz obciążeń obliczeniowych. Opcja `Typowy` pozwala na wybór elementu murowego
 z listy i automatyczne uzupełnienie parametrów elementu murowego oraz ciężaru.
 `Opis` można dowolnie modyfikować, domyślnie wpisane są numery węzłów.
-W celu policzenia ściany jako metrowego pasma należy odznaczyć opcję `Długość`.
-Przycisk `Wiatr` otwiera okno, gdzie po wprowadzeniu danych dotyczących lokalizacji
-oraz obiektu budowlanego, oddziaływanie wiatru według normy *PN-EN 1991-1-4*
-zostaje wprowadzone jako obciążenie prostopadłe do powierzchni.
-Jeżeli jest zadana długość ściany i nie ma zadanych usztywnień pionowych krawędzi,
-możemy określić inne niż długość ściany pasmo zbierania obciążenia od wiatru.
+W celu policzenia ściany jako metrowego pasma ściany o nieskońcoznej długości
+należy odznaczyć opcję `Długość`. Przycisk `Wiatr` otwiera okno, gdzie po
+wprowadzeniu danych dotyczących lokalizacji oraz obiektu budowlanego,
+oddziaływanie wiatru według normy *PN-EN 1991-1-4* zostaje wprowadzone jako
+obciążenie prostopadłe do powierzchni. Jeżeli jest zadana długość ściany i nie
+ma zadanych usztywnień pionowych krawędzi, możemy określić inne niż długość
+ściany pasmo zbierania obciążenia od wiatru.
 
-![image](https://github.com/pkpkbud/mury/assets/55211992/e216c58e-a01b-46da-a9c1-68bf54de9eb4)
+![image](https://github.com/pkpkbud/mury/assets/55211992/3ac780d0-5f31-4768-b7e3-db213a13b8dc)
 
-Po włączeniu opcji `Własne` wszystkie wartości obciążeń można dowolnie modyfikować
-oraz można wybrać wariant z obwiedni sił. Przycisk `Zeruj` zeruje wszystkie obciążenia.
-Ponowne wciśnięcie przywraca wartości przed zerowaniem. Wymiary ściany są pobierane
-z opisu podpory lub są przyjmowane wartości domyślne.
+**Siły oraz momenty przyjmowane w module są wyliczone na podstawie obliczeń statycznych**.
+Po włączeniu opcji `Własne` wszystkie wartości obciążeń można dowolnie modyfikować oraz
+można wybrać wariant z obwiedni sił. W ten sposób można zadać własną siłę skupioną,
+np. w przypadku obliczeń wariantu `Ściana pod obciążeniem skupionym` albo można zadać
+własne momenty gnące, np. obliczone uproszczoną metodą zgodnie z załącznikiem C normy
+*PN-EN 1996-1-1*. Przycisk `Zeruj` zeruje wszystkie podane obciążenia. Ponowne
+wciśnięcie przywraca wartości przed zerowaniem. Wymiary ściany oraz elementy murowy są
+pobierane z opisu podpory w programie **ABC Płyta** lub są przyjmowane wartości domyślne.
 
-![image](https://github.com/pkpkbud/mury/assets/55211992/66ef1b7e-589a-4f23-8f38-7a03d85e722b)
+![image](https://github.com/pkpkbud/mury/assets/55211992/bca231e5-a8c0-4960-9ba2-c90c85eb876d)
 
 **Ramka z wynikami u dołu**, która aktualizuje się po zmianie wartości parametrów
 lub po naciśnięciu przycisku `Oblicz`. Każda linijka zawiera opis sprawdzanego warunku,
@@ -150,6 +159,11 @@ Sprawdzane są następujące warunki nośności zgodnie z normą *PN-EN 1996-1-1
 (obciążenia pionowe u góry, dołu lub w środku wysokości ściany).
 - Ściana murowa niezbrojona obciążona prostopadle do swojej powierzchni zgodnie
 z punktem 6.3.1 (zginanie równolegle lub prostopadle do spoin wspornych).
+
+Jeżeli została wybrana opcja `Ściana obciążona siłą skupioną` sprawdzany jest warunek
+nośności ściany obciążonej siłą skupioną zgodnie z p. 6.1.3 normy *PN-EN 1996-1-1*
+
+![image](https://github.com/pkpkbud/mury/assets/55211992/5b11ba30-7212-4cf5-9f44-04b3d8efe4ba)
 
 **Ramka przycisków po prawej** stronie zawierająca następujące funkcje: 
 - Przycisk `Oblicz` aktualizuje część z wynikami dla zadanych wartości.
