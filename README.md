@@ -161,7 +161,7 @@ Sprawdzane są następujące warunki nośności zgodnie z normą *PN-EN 1996-1-1
 z punktem 6.3.1 (zginanie równolegle lub prostopadle do spoin wspornych).
 
 Jeżeli została wybrana opcja `Ściana obciążona siłą skupioną` sprawdzany jest warunek
-nośności ściany obciążonej siłą skupioną zgodnie z p. 6.1.3 normy *PN-EN 1996-1-1*
+nośności ściany obciążonej siłą skupioną zgodnie z p. 6.1.3 normy *PN-EN 1996-1-1*:
 
 ![image](https://github.com/pkpkbud/mury/assets/55211992/a2393611-7081-4599-903d-6dba8a3fea1a)
 
