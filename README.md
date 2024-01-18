@@ -43,8 +43,8 @@ kluczu USB.
 
 Wybieramy jeden z poniższych linków, aby rozpocząć pobieranie:
 
-- [Mam kilka programów **ABC** na kluczu USB](https://github.com/pkpkbud/mury/releases/download/1.0.0/Mury-ABC6-1.0.0-win32.msi)
-- [Mam tylko **ABC Płyta** na kluczu USB](https://github.com/pkpkbud/mury/releases/download/1.0.0/Mury-ABC6p-1.0.0-win32.msi)
+- [Mam kilka programów **ABC** na kluczu USB](https://github.com/pkpkbud/mury/releases/download/1.0.1/Mury-ABC6-1.0.1-win32.msi)
+- [Mam tylko **ABC Płyta** na kluczu USB](https://github.com/pkpkbud/mury/releases/download/1.0.1/Mury-ABC6p-1.0.1-win32.msi)
 
 Moduł instalujemy w lokalizacji programu **ABC Płyta** w folderze *EXE*
 (np. *C:\ABC6\EXE*).
@@ -69,7 +69,7 @@ pola lub wciskając klawisze strzałek `↑`-`↓` na klawiaturze.
 Moduł można uruchomić samodzielnie w trybie kalkulatora. W tym celu należy uruchomić
 skrót z pulpitu albo plik `sciana.exe` z lokalizacji instalacji (np. *C:\ABC6\EXE*).
 Przy uruchamianiu można wybrać plik zadania z końcówką *.MUR* w celu wczytania wcześniej
-zapisanych wyników. Przy zamykaniu można zapisać wyniki do pliku z końcówką *.MUR*.
+zapisanych wyników. Przy zamykaniu można zapisać wyniki do pliku z rozszerzeniem *.MUR*.
 Pierwsze uruchomienie należy wykonać z poziomu programu **ABC Płyta**.
 
 W programie **ABC Płyta** dla podpór typu `Ściana` można zaprojektować ścianę murową.
@@ -108,7 +108,7 @@ gnących (schemat statyczny belki w przypadku braku usztywnień lub płyty) oraz
 graniczny użytkowalności (sprawdzenie ograniczenia wysokości i długości ściany
 w zależności od jej grubości zgodnie z załącznikiem F normy *PN-EN 1996-1-1*).
 Opcja `Ściana obciążona siłą skupioną` pozwala na sprawdzenie wybranego obszaru
-ściany pod obciążeniem skupionym.
+ściany pod obciążeniem skupionym, np. w miejscu oparcia belki.
 
 ### Projektowanie
 
