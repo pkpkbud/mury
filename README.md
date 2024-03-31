@@ -43,8 +43,8 @@ kluczu USB.
 
 Wybieramy jeden z poniższych linków, aby rozpocząć pobieranie:
 
-- [Mam kilka programów **ABC** na kluczu USB](https://github.com/pkpkbud/mury/releases/download/1.0.1/Mury-ABC6-1.0.1-win32.msi)
-- [Mam tylko **ABC Płyta** na kluczu USB](https://github.com/pkpkbud/mury/releases/download/1.0.1/Mury-ABC6p-1.0.1-win32.msi)
+- [Mam kilka programów **ABC** na kluczu USB](https://github.com/pkpkbud/mury/releases/download/1.0.2/Mury-ABC6-1.0.2-win32.msi)
+- [Mam tylko **ABC Płyta** na kluczu USB](https://github.com/pkpkbud/mury/releases/download/1.0.2/Mury-ABC6p-1.0.2-win32.msi)
 
 Moduł instalujemy w lokalizacji programu **ABC Płyta** w folderze *EXE*
 (np. *C:\ABC6\EXE*).
@@ -129,11 +129,13 @@ wprowadzeniu danych dotyczących lokalizacji oraz obiektu budowlanego,
 oddziaływanie wiatru według normy *PN-EN 1991-1-4* zostaje wprowadzone jako
 obciążenie prostopadłe do powierzchni. Jeżeli jest zadana długość ściany i nie
 ma zadanych usztywnień pionowych krawędzi, możemy określić inne niż długość
-ściany pasmo zbierania obciążenia od wiatru.
+ściany pasmo zbierania obciążenia od wiatru. Przycisk `Do schowka` kopiuje
+notkę z oddziaływaniem wiatru do schowka.
 
-![image](https://github.com/pkpkbud/mury/assets/55211992/3ac780d0-5f31-4768-b7e3-db213a13b8dc)
+![image](https://github.com/pkpkbud/mury/assets/55211992/63a22fdb-a17e-4be9-abf4-255adb8c3ed3)
 
-**Siły oraz momenty przyjmowane w module są wyliczone na podstawie obliczeń statycznych**.
+**Siły oraz momenty przyjmowane w module są wyliczone na podstawie obliczeń statycznych.**
+**W programie ABC Płyta należy uwzględniać ewentualne obciążenia z wyższych kondygnacji.**
 Po włączeniu opcji `Własne` wszystkie wartości obciążeń można dowolnie modyfikować oraz
 można wybrać wariant z obwiedni sił. W ten sposób można zadać własną siłę skupioną,
 np. w przypadku obliczeń wariantu `Ściana pod obciążeniem skupionym` albo można zadać
