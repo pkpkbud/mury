@@ -1,9 +1,9 @@
-# Ściany murowe w ABC Płyta
+# Ściany murowe w ABC
 
 [Zakup](#zakup) | [Instalacja](#instalacja) | [Wideo](#wideo) | [Instrukcja](#instrukcja) | [Kontakt](#kontakt)
 
 Moduł do szybkiego projektowania ścian murowych zgodnie z Eurokodami w
-programie **ABC Płyta** firmy [PRO-SOFT](https://www.pro-soft.gliwice.pl/).
+programach **ABC** firmy [PRO-SOFT](https://www.pro-soft.gliwice.pl/).
 
 W celu zapoznania się z możliwościami modułu można obejrzeć [wideo](#wideo)
 lub go [zainstalować](#instalacja). Przed [zakupem](#zakup) działa w trybie DEMO,
@@ -15,16 +15,17 @@ Szczegółowy opis działania zawarty jest w [instrukcji](#instrukcja).
 Cena **600,- zł** netto za licencję wieczystą, na fakturze kwota będzie powiększona
 o podatek VAT w wysokości 23%.
 
-Wymagana jest aktualizacja programu **ABC Płyta** do wersji minimum 6.24 zgodnie z
+Wymagana jest aktualizacja programu **ABC** do wersji minimum 6.24 zgodnie z
 [cennikiem](https://www.pro-soft.gliwice.pl/cennik.html).
 Do pobrania, aktualizacji oraz autoryzacji modułu wymagane jest połączenie z siecią.
 
-Kupując więcej niż jedną licencję otrzymuje się upusty:
+Jeden zakup dotyczy jednej licencji (jednego klucza USB lub jednego użytkownika) i jest
+niezależny od ilości programów. Kupując więcej niż jedną licencję otrzymuje się upusty:
 drugi i trzeci egzemplarz - 40%, czwarty i dalsze egzemplarze - 60%.
 
 Zakupy w formie grupowej prowadzi firma [TINSERWIS](https://www.tinserwis.pl/),
 gdzie można uzyskać maksymalnie 50% rabatu. Istnieje możliwość dzierżawy modułu razem
-z programem **ABC Płyta**. W celu zakupu i dzierżawy prosimy o [kontakt](#kontakt).
+z programami **ABC**. W celu zakupu i dzierżawy prosimy o [kontakt](#kontakt).
 
 ```
 Moduł podlega ochronie prawa autorskiego bez udzielania jakiejkolwiek gwarancji.
@@ -41,12 +42,16 @@ na przetwarzanie swoich danych osobowych w celu obsługi zakupu licencji.
 Plik instalacyjny pobieramy w zależności od tego, jaki program **ABC** posiadamy na
 kluczu USB.
 
+W przypadku posiadania kilku kluczy USB, moduł instalujemy kilka razy w lokalizacji
+programu **ABC**.
+
 Wybieramy jeden z poniższych linków, aby rozpocząć pobieranie:
 
-- [Mam kilka programów **ABC** na kluczu USB](https://github.com/pkpkbud/mury/releases/download/1.0.2/Mury-ABC6-1.0.2-win32.msi)
-- [Mam tylko **ABC Płyta** na kluczu USB](https://github.com/pkpkbud/mury/releases/download/1.0.2/Mury-ABC6p-1.0.2-win32.msi)
+- [Mam kilka programów **ABC** na kluczu USB](https://github.com/pkpkbud/mury/releases/download/1.0.3/Mury-ABC6-1.0.3-win32.msi)
+- [Mam tylko **ABC Płyta** na kluczu USB](https://github.com/pkpkbud/mury/releases/download/1.0.3/Mury-ABC6p-1.0.3-win32.msi)
+- [Mam tylko **ABC Obiekt3D** na kluczu USB](https://github.com/pkpkbud/mury/releases/download/1.0.3/Mury-ABC6s-1.0.3-win32.msi)
 
-Moduł instalujemy w lokalizacji programu **ABC Płyta** w folderze *EXE*
+Moduł instalujemy w lokalizacji programu **ABC** w folderze *EXE*
 (np. *C:\ABC6\EXE*).
 
 Spis zmian oraz poprzednie wersje są dostępne w serwisie
@@ -70,12 +75,12 @@ Moduł można uruchomić samodzielnie w trybie kalkulatora. W tym celu należy u
 skrót z pulpitu albo plik `sciana.exe` z lokalizacji instalacji (np. *C:\ABC6\EXE*).
 Przy uruchamianiu można wybrać plik zadania z końcówką *.MUR* w celu wczytania wcześniej
 zapisanych wyników. Przy zamykaniu można zapisać wyniki do pliku z rozszerzeniem *.MUR*.
-Pierwsze uruchomienie należy wykonać z poziomu programu **ABC Płyta**.
+Pierwsze uruchomienie należy wykonać z poziomu programu **ABC**.
 
-W programie **ABC Płyta** dla podpór typu `Ściana` można zaprojektować ścianę murową.
+W programach **ABC** dla podpór typu `Ściana` można zaprojektować ścianę murową.
 W wynikach zadania w menu `Wymiar` dostępna jest opcja `Projektowanie ściany`.
 W przypadku, gdy ta możliwość nie jest dostępna trzeba zaktualizować program
-**ABC Płyta** do wersji 6.24, włączyć pełny zakres menu przyciskiem "M" lub wybrać
+**ABC** do wersji 6.24, włączyć pełny zakres menu przyciskiem "M" lub wybrać
 z menu opcję `Pokaż → Wybór wymiarowania`.
 
 ![image](https://github.com/pkpkbud/mury/assets/55211992/2ac5cf3e-1e1c-496f-bb2d-ea8a488f2fc2)
@@ -135,14 +140,14 @@ notkę z oddziaływaniem wiatru do schowka.
 ![image](https://github.com/pkpkbud/mury/assets/55211992/63a22fdb-a17e-4be9-abf4-255adb8c3ed3)
 
 **Siły oraz momenty przyjmowane w module są wyliczone na podstawie obliczeń statycznych.**
-**W programie ABC Płyta należy uwzględniać ewentualne obciążenia z wyższych kondygnacji.**
+**W programie ABC należy uwzględniać ewentualne obciążenia z wyższych kondygnacji.**
 Po włączeniu opcji `Własne` wszystkie wartości obciążeń można dowolnie modyfikować oraz
 można wybrać wariant z obwiedni sił. W ten sposób można zadać własną siłę skupioną,
 np. w przypadku obliczeń wariantu `Ściana pod obciążeniem skupionym` albo można zadać
 własne momenty gnące, np. obliczone uproszczoną metodą zgodnie z załącznikiem C normy
 *PN-EN 1996-1-1*. Przycisk `Zeruj` zeruje wszystkie podane obciążenia. Ponowne
 wciśnięcie przywraca wartości przed zerowaniem. Wymiary ściany oraz elementy murowy są
-pobierane z opisu podpory w programie **ABC Płyta** lub są przyjmowane wartości domyślne.
+pobierane z opisu podpory w programie **ABC** lub są przyjmowane wartości domyślne.
 
 ![image](https://github.com/pkpkbud/mury/assets/55211992/bca231e5-a8c0-4960-9ba2-c90c85eb876d)
 
@@ -153,7 +158,7 @@ jest spełniony, kolor tekstu zmienia się na czerwony. Nie są również pokazy
 sprawdzenia wyników o zerowym wytężeniu. W przypadku wymiarowania na obwiednię sił,
 na końcu każdego wzoru w nawiasie kwadratowym podany jest decydujący przypadek.
 Po najechaniu na niego kursorem myszy wyświetlone zostaną wartości sił pobrane
-z programu **ABC Płyta**. Nazwa przypadku oznacza wiodące obciążenie dla warunku.
+z programu **ABC**. Nazwa przypadku oznacza wiodące obciążenie dla warunku.
 
 Sprawdzane są następujące warunki nośności zgodnie z normą *PN-EN 1996-1-1*:
 - Smukłość ściany murowej zgodnie z punktem 5.5.1.4.
@@ -180,8 +185,7 @@ nowy plik *Nazwa_zadania.MUR.DOCX* w lokalizacji zadania.
 - Przycisk `Aktualizuj` sprawdza, czy jest uruchomiona aktualna wersja modułu oraz w
 razie potrzeby umożliwia pobranie i aktualizację do najnowszej wersji. Plik instalacyjny
 jest pobierany w tle, trzeba poczekać na jego pobranie. Następnie moduł jest wyłączany
-i uruchamia się instalacja. Zaleca się zamknięcie programu **ABC Płyta** przed
-instalacją.
+i uruchamia się instalacja. Zaleca się zamknięcie programu **ABC** przed instalacją.
 - Przycisk `Zamknij` zapisuje wyniki i zamyka moduł, skąd można przejść do wyboru
 kolejnego miejsca.
 - Przełączanie opcji `Zawsze na wierzchu` powoduje przypięcie lub odpięcie modułu ponad
