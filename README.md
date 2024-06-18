@@ -27,16 +27,6 @@ Zakupy w formie grupowej prowadzi firma [TINSERWIS](https://www.tinserwis.pl/),
 gdzie można uzyskać maksymalnie 50% rabatu. Istnieje możliwość dzierżawy modułu razem
 z programami **ABC**. W celu zakupu i dzierżawy prosimy o [kontakt](#kontakt).
 
-```
-Moduł podlega ochronie prawa autorskiego bez udzielania jakiejkolwiek gwarancji.
-Jest sprzedawany jako narzędzie do wsparcia zarobkowego procesu projektowego.
-Jest dostarczany "taki jaki jest" i nie ma gwarancji, że jest wolny od błędów pomimo
-dołożenia wszelkich starań. Autor modułu nie ponosi odpowiedzialności za skutki powstałe
-w wyniku nieumiejętnego posługiwania się oprogramowaniem, w tym związane z utratą
-danych. Osoba kupująca dobrowolnie wyraża zgodę na powyższe warunki licencyjne oraz
-na przetwarzanie swoich danych osobowych w celu obsługi zakupu licencji.
-```
-
 ## Instalacja
 
 Plik instalacyjny pobieramy w zależności od tego, jaki program **ABC** posiadamy na
@@ -47,15 +37,25 @@ programu **ABC**.
 
 Wybieramy jeden z poniższych linków, aby rozpocząć pobieranie:
 
-- [Mam kilka programów **ABC** na kluczu USB](https://github.com/pkpkbud/mury/releases/download/1.0.4/Mury-ABC6-1.0.4-win32.msi)
-- [Mam tylko **ABC Płyta** na kluczu USB](https://github.com/pkpkbud/mury/releases/download/1.0.4/Mury-ABC6p-1.0.4-win32.msi)
-- [Mam tylko **ABC Obiekt3D** na kluczu USB](https://github.com/pkpkbud/mury/releases/download/1.0.4/Mury-ABC6s-1.0.4-win32.msi)
+- [Mam kilka programów **ABC** na kluczu USB](https://github.com/pkpkbud/mury/releases/download/1.1.0/Mury-ABC6-1.1.0-win32.msi)
+- [Mam tylko **ABC Płyta** na kluczu USB](https://github.com/pkpkbud/mury/releases/download/1.1.0/Mury-ABC6p-1.1.0-win32.msi)
+- [Mam tylko **ABC Obiekt3D** na kluczu USB](https://github.com/pkpkbud/mury/releases/download/1.1.0/Mury-ABC6s-1.1.0-win32.msi)
 
 Moduł instalujemy w lokalizacji programu **ABC** w folderze *EXE*
 (np. *C:\ABC6\EXE*).
 
 Spis zmian oraz poprzednie wersje są dostępne w serwisie
 [GitHub](https://github.com/pkpkbud/mury/releases).
+
+```
+Moduł podlega ochronie prawa autorskiego bez udzielania jakiejkolwiek gwarancji.
+Jest sprzedawany jako narzędzie do wsparcia zarobkowego procesu projektowego.
+Jest dostarczany "taki jaki jest" i nie ma gwarancji, że jest wolny od błędów pomimo
+dołożenia wszelkich starań. Autor modułu nie ponosi odpowiedzialności za skutki powstałe
+w wyniku nieumiejętnego posługiwania się oprogramowaniem, w tym związane z utratą
+danych. Instalujący dobrowolnie wyraża zgodę na powyższe warunki licencyjne oraz
+na przetwarzanie udostępnionych danych osobowych w celu obsługi zakupu licencji.
+```
 
 ## Wideo
 
@@ -73,9 +73,7 @@ pola lub wciskając klawisze strzałek `↑`-`↓` na klawiaturze.
 
 Moduł można uruchomić samodzielnie w trybie kalkulatora. W tym celu należy uruchomić
 skrót z pulpitu albo plik `sciana.exe` z lokalizacji instalacji (np. *C:\ABC6\EXE*).
-Przy uruchamianiu można wybrać plik zadania z końcówką *.MUR* w celu wczytania wcześniej
-zapisanych wyników. Przy zamykaniu można zapisać wyniki do pliku z rozszerzeniem *.MUR*.
-Pierwsze uruchomienie należy wykonać z poziomu programu **ABC**.
+**Pierwsze uruchomienie należy wykonać z poziomu programu ABC.**
 
 W programach **ABC** dla podpór typu `Ściana` można zaprojektować ścianę murową.
 W wynikach zadania w menu `Wymiar` dostępna jest opcja `Projektowanie ściany`.
@@ -117,7 +115,7 @@ Opcja `Ściana obciążona siłą skupioną` pozwala na sprawdzenie wybranego ob
 
 ### Projektowanie
 
-![image](https://github.com/pkpkbud/mury/assets/55211992/099dc52d-71c9-45ca-8b9d-762376b989ad)
+![image](https://github.com/pkpkbud/mury/assets/55211992/c76fd374-783f-4890-a1e5-38d89787b8c1)
 
 Po wprowadzeniu danych na pierwszej planszy można przyciskiem `OK` przejść do planszy
 głównej modułu. Na niej przeprowadzane jest całe projektowanie. Składa się z opisanych
@@ -170,12 +168,16 @@ z punktem 6.3.1 (zginanie równolegle lub prostopadle do spoin wspornych).
 Jeżeli została wybrana opcja `Ściana obciążona siłą skupioną` sprawdzany jest warunek
 nośności ściany obciążonej siłą skupioną zgodnie z p. 6.1.3 normy *PN-EN 1996-1-1*:
 
-![image](https://github.com/pkpkbud/mury/assets/55211992/a2393611-7081-4599-903d-6dba8a3fea1a)
+![image](https://github.com/pkpkbud/mury/assets/55211992/9a3f6269-83c9-4175-a609-855b1dcb3553)
 
 **Ramka przycisków po prawej** stronie zawierająca następujące funkcje: 
 - Przycisk `Oblicz` aktualizuje część z wynikami dla zadanych wartości.
 - Przycisk `Usztywnienia` otwiera ponownie wcześniej opisane okno
 [Usztywnienia](#usztywnienia).
+- Przycisk `Wczytaj` umożliwia otwarcie pliku zadania z końcówką *.MUR* w celu wczytania
+wcześniej zapisanych danych.
+- Przycisk `Zapisz` pozwala na zapisanie danych do pliku z końcówką *.MUR* w wybranej
+lokalizacji na dysku.
 - Przycisk `Do schowka` kopiuje listę z notką obliczeniową do schowka. Po zamknięciu
 modułu schowek zostaje wyczyszczony.
 - Przycisk `Do Worda` otwiera nowy dokument zawierający notkę obliczeniową. Ponowne
