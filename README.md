@@ -17,6 +17,7 @@ o podatek VAT w wysokości 23%.
 
 Wymagana jest aktualizacja programu **ABC** do wersji minimum 6.24 zgodnie z
 [cennikiem](https://www.pro-soft.gliwice.pl/cennik.html).
+Moduł działa w systemach operacyjnych Microsoft Windows w wersji 7, 8, 10 i 11.
 Do pobrania, aktualizacji oraz autoryzacji modułu wymagane jest połączenie z siecią.
 
 Jeden zakup dotyczy jednej licencji (jednego klucza USB lub jednego użytkownika) i jest
