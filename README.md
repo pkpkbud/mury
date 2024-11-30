@@ -38,9 +38,9 @@ programu **ABC**.
 
 Wybieramy jeden z poniższych linków, aby rozpocząć pobieranie:
 
-- [Mam kilka programów **ABC** na kluczu USB](https://github.com/pkpkbud/mury/releases/download/1.1.2/Mury-ABC6-1.1.2-win32.msi)
-- [Mam tylko **ABC Płyta** na kluczu USB](https://github.com/pkpkbud/mury/releases/download/1.1.2/Mury-ABC6p-1.1.2-win32.msi)
-- [Mam tylko **ABC Obiekt3D** na kluczu USB](https://github.com/pkpkbud/mury/releases/download/1.1.2/Mury-ABC6s-1.1.2-win32.msi)
+- [Mam kilka programów **ABC** na kluczu USB](https://github.com/pkpkbud/mury/releases/download/1.1.3/Mury-ABC6-1.1.3-win32.msi)
+- [Mam tylko **ABC Płyta** na kluczu USB](https://github.com/pkpkbud/mury/releases/download/1.1.3/Mury-ABC6p-1.1.3-win32.msi)
+- [Mam tylko **ABC Obiekt3D** na kluczu USB](https://github.com/pkpkbud/mury/releases/download/1.1.3/Mury-ABC6s-1.1.3-win32.msi)
 
 Moduł instalujemy w lokalizacji programu **ABC** w folderze *EXE*
 (np. *C:\ABC6\EXE*).
