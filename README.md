@@ -38,9 +38,9 @@ programu **ABC**.
 
 Wybieramy jeden z poniższych linków, aby rozpocząć pobieranie:
 
-- [Mam kilka programów **ABC** na kluczu USB](https://github.com/pkpkbud/mury/releases/download/1.1.3/Mury-ABC6-1.1.3-win32.msi)
-- [Mam tylko **ABC Płyta** na kluczu USB](https://github.com/pkpkbud/mury/releases/download/1.1.3/Mury-ABC6p-1.1.3-win32.msi)
-- [Mam tylko **ABC Obiekt3D** na kluczu USB](https://github.com/pkpkbud/mury/releases/download/1.1.3/Mury-ABC6s-1.1.3-win32.msi)
+- [Mam kilka programów **ABC** na kluczu USB](https://github.com/pkpkbud/mury/releases/download/1.2.0/Mury-ABC6-1.2.0-win32.msi)
+- [Mam tylko **ABC Płyta** na kluczu USB](https://github.com/pkpkbud/mury/releases/download/1.2.0/Mury-ABC6p-1.2.0-win32.msi)
+- [Mam tylko **ABC Obiekt3D** na kluczu USB](https://github.com/pkpkbud/mury/releases/download/1.2.0/Mury-ABC6s-1.2.0-win32.msi)
 
 Moduł instalujemy w lokalizacji programu **ABC** w folderze *EXE*
 (np. *C:\ABC6\EXE*).
@@ -59,6 +59,8 @@ na przetwarzanie udostępnionych danych osobowych w celu obsługi zakupu licencj
 ```
 
 ## Wideo
+
+<iframe width="560" height="315" src="https://www.youtube.com/watch?v=CLbIOKY00J4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/4C1No9RfA6Q" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
@@ -116,7 +118,7 @@ Opcja `Ściana obciążona siłą skupioną` pozwala na sprawdzenie wybranego ob
 
 ### Projektowanie
 
-![image](https://github.com/pkpkbud/mury/assets/55211992/c76fd374-783f-4890-a1e5-38d89787b8c1)
+![image](https://github.com/user-attachments/assets/6572119c-04eb-4c4f-ba70-f24e8332b547)
 
 Po wprowadzeniu danych na pierwszej planszy można przyciskiem `OK` przejść do planszy
 głównej modułu. Na niej przeprowadzane jest całe projektowanie. Składa się z opisanych
@@ -169,7 +171,7 @@ z punktem 6.3.1 (zginanie równolegle lub prostopadle do spoin wspornych).
 Jeżeli została wybrana opcja `Ściana obciążona siłą skupioną` sprawdzany jest warunek
 nośności ściany obciążonej siłą skupioną zgodnie z p. 6.1.3 normy *PN-EN 1996-1-1*:
 
-![image](https://github.com/pkpkbud/mury/assets/55211992/9a3f6269-83c9-4175-a609-855b1dcb3553)
+![image](https://github.com/user-attachments/assets/91c6a468-52c7-433b-9221-97c50c6af005)
 
 **Ramka przycisków po prawej** stronie zawierająca następujące funkcje: 
 - Przycisk `Oblicz` aktualizuje część z wynikami dla zadanych wartości.
@@ -181,6 +183,8 @@ wcześniej zapisanych danych.
 lokalizacji na dysku.
 - Przycisk `Do schowka` kopiuje listę z notką obliczeniową do schowka. Po zamknięciu
 modułu schowek zostaje wyczyszczony.
+- Przycisk `Folder` pozwala określić domyślny folder do wczytywania i zapisywania
+plików z danymi.
 - Przycisk `Do Worda` otwiera nowy dokument zawierający notkę obliczeniową. Ponowne
 naciśnięcie przycisku powoduje dopisanie wyników do otwartego dokumentu. W przypadku
 posiadania innego pakietu niż *Microsoft Office*, jest tworzony i otwierany
