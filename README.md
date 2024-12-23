@@ -181,10 +181,10 @@ nośności ściany obciążonej siłą skupioną zgodnie z p. 6.1.3 normy *PN-EN
 wcześniej zapisanych danych.
 - Przycisk `Zapisz` pozwala na zapisanie danych do pliku z końcówką *.MUR* w wybranej
 lokalizacji na dysku.
-- Przycisk `Do schowka` kopiuje listę z notką obliczeniową do schowka. Po zamknięciu
-modułu schowek zostaje wyczyszczony.
 - Przycisk `Folder` pozwala określić domyślny folder do wczytywania i zapisywania
 plików z danymi.
+- Przycisk `Do schowka` kopiuje listę z notką obliczeniową do schowka. Po zamknięciu
+modułu schowek zostaje wyczyszczony.
 - Przycisk `Do Worda` otwiera nowy dokument zawierający notkę obliczeniową. Ponowne
 naciśnięcie przycisku powoduje dopisanie wyników do otwartego dokumentu. W przypadku
 posiadania innego pakietu niż *Microsoft Office*, jest tworzony i otwierany
