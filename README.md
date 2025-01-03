@@ -12,8 +12,8 @@ Szczegółowy opis działania zawarty jest w [instrukcji](#instrukcja).
 
 ## Zakup
 
-Cena **600,- zł** netto za licencję wieczystą, na fakturze kwota będzie powiększona
-o podatek VAT w wysokości 23%.
+> Moduł wycofany ze sprzedaży i obecnie stanowi część modułu
+**[Ściany murowe i żelbetowe](https://pkpkbud.github.io/sciany/)**.
 
 Wymagana jest aktualizacja programu **ABC** do wersji minimum 6.24 zgodnie z
 [cennikiem](https://www.pro-soft.gliwice.pl/cennik.html).
@@ -38,9 +38,9 @@ programu **ABC**.
 
 Wybieramy jeden z poniższych linków, aby rozpocząć pobieranie:
 
-- [Mam kilka programów **ABC** na kluczu USB](https://github.com/pkpkbud/mury/releases/download/1.2.0/Mury-ABC6-1.2.0-win32.msi)
-- [Mam tylko **ABC Płyta** na kluczu USB](https://github.com/pkpkbud/mury/releases/download/1.2.0/Mury-ABC6p-1.2.0-win32.msi)
-- [Mam tylko **ABC Obiekt3D** na kluczu USB](https://github.com/pkpkbud/mury/releases/download/1.2.0/Mury-ABC6s-1.2.0-win32.msi)
+- [Mam kilka programów **ABC** na kluczu USB](https://github.com/pkpkbud/mury/releases/download/1.3.0/Mury-ABC6-1.3.0-win32.msi)
+- [Mam tylko **ABC Płyta** na kluczu USB](https://github.com/pkpkbud/mury/releases/download/1.3.0/Mury-ABC6p-1.3.0-win32.msi)
+- [Mam tylko **ABC Obiekt3D** na kluczu USB](https://github.com/pkpkbud/mury/releases/download/1.3.0/Mury-ABC6s-1.3.0-win32.msi)
 
 Moduł instalujemy w lokalizacji programu **ABC** w folderze *EXE*
 (np. *C:\ABC6\EXE*).
@@ -75,8 +75,10 @@ pola lub wciskając klawisze strzałek `↑`-`↓` na klawiaturze.
 ### Uruchomienie
 
 Moduł można uruchomić samodzielnie w trybie kalkulatora. W tym celu należy uruchomić
-skrót z pulpitu albo plik `sciana.exe` z lokalizacji instalacji (np. *C:\ABC6\EXE*).
+skrót z pulpitu albo plik `mury.exe` z lokalizacji instalacji (np. *C:\ABC6\EXE*).
 **Pierwsze uruchomienie należy wykonać z poziomu programu ABC.**
+
+![image](https://github.com/user-attachments/assets/7a733991-1293-4d40-8a1a-bd5fe659a0cc)
 
 W programach **ABC** dla podpór typu `Ściana` można zaprojektować ścianę murową.
 W wynikach zadania w menu `Wymiar` dostępna jest opcja `Projektowanie ściany`.
@@ -94,7 +96,7 @@ Obwiednia generalnie będzie obliczana jako `Automat EN`, chyba, że są zdefini
 własne kombinacje wg PN-EN, to wtedy będzie można je wybrać. Przycisk `Usuń` usuwa
 wcześniej zadane miejsca.
 
-![image](https://github.com/pkpkbud/mury/assets/55211992/dd0029d5-228f-4527-b12a-d4972d870869)
+![image](https://github.com/user-attachments/assets/ce8ff3e3-48ea-40ba-834a-c428c83fd1fe)
 
 ### Wybór miejsca
 
@@ -106,7 +108,7 @@ i otworem lub pomiędzy otworami. Alternatywnie można wybrać dowolne punkty na
 
 ### Usztywnienia
 
-![image](https://github.com/pkpkbud/mury/assets/55211992/e0f09661-a57a-4d7b-bb9f-3a5e87758dfe)
+![image](https://github.com/user-attachments/assets/128e7525-7581-47a8-921e-ad2a0519efe8)
 
 W oknie można wybrać dla każdego z węzłów czy jego krawędź pionowa jest `Podparta`
 czy `Swobodna`. Wybór ten ma wpływ na wysokość efektywną ściany, wartości momentów
@@ -118,11 +120,11 @@ Opcja `Ściana obciążona siłą skupioną` pozwala na sprawdzenie wybranego ob
 
 ### Projektowanie
 
-![image](https://github.com/user-attachments/assets/6572119c-04eb-4c4f-ba70-f24e8332b547)
-
 Po wprowadzeniu danych na pierwszej planszy można przyciskiem `OK` przejść do planszy
 głównej modułu. Na niej przeprowadzane jest całe projektowanie. Składa się z opisanych
 poniżej elementów.
+
+![image](https://github.com/user-attachments/assets/53f665e7-809a-4af3-87b4-ff9850011c78)
 
 **Ramki z danymi u góry**, gdzie podobnie jak na pierwszej planszy należy podać
 wartości, tym razem dotyczące przyjętych założeń projektowych, materiałów, wymiarów
@@ -138,7 +140,7 @@ ma zadanych usztywnień pionowych krawędzi, możemy określić inne niż długo
 ściany pasmo zbierania obciążenia od wiatru. Przycisk `Do schowka` kopiuje
 notkę z oddziaływaniem wiatru do schowka.
 
-![image](https://github.com/pkpkbud/mury/assets/55211992/63a22fdb-a17e-4be9-abf4-255adb8c3ed3)
+![image](https://github.com/user-attachments/assets/54565d45-8f08-4fb2-bd91-2fd29e4cac7b)
 
 **Siły oraz momenty przyjmowane w module są wyliczone na podstawie obliczeń statycznych.**
 **W programie ABC należy uwzględniać ewentualne obciążenia z wyższych kondygnacji.**
@@ -171,7 +173,7 @@ z punktem 6.3.1 (zginanie równolegle lub prostopadle do spoin wspornych).
 Jeżeli została wybrana opcja `Ściana obciążona siłą skupioną` sprawdzany jest warunek
 nośności ściany obciążonej siłą skupioną zgodnie z p. 6.1.3 normy *PN-EN 1996-1-1*:
 
-![image](https://github.com/user-attachments/assets/91c6a468-52c7-433b-9221-97c50c6af005)
+![image](https://github.com/user-attachments/assets/9249a651-b3a4-407a-8a81-f7875b2d243f)
 
 **Ramka przycisków po prawej** stronie zawierająca następujące funkcje: 
 - Przycisk `Oblicz` aktualizuje część z wynikami dla zadanych wartości.
