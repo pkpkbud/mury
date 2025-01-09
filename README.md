@@ -38,9 +38,9 @@ programu **ABC**.
 
 Wybieramy jeden z poniższych linków, aby rozpocząć pobieranie:
 
-- [Mam kilka programów **ABC** na kluczu USB](https://github.com/pkpkbud/mury/releases/download/1.3.0/Mury-ABC6-1.3.0-win32.msi)
-- [Mam tylko **ABC Płyta** na kluczu USB](https://github.com/pkpkbud/mury/releases/download/1.3.0/Mury-ABC6p-1.3.0-win32.msi)
-- [Mam tylko **ABC Obiekt3D** na kluczu USB](https://github.com/pkpkbud/mury/releases/download/1.3.0/Mury-ABC6s-1.3.0-win32.msi)
+- [Mam kilka programów **ABC** na kluczu USB](https://github.com/pkpkbud/mury/releases/download/1.4.0/Mury-ABC6-1.4.0-win32.msi)
+- [Mam tylko **ABC Płyta** na kluczu USB](https://github.com/pkpkbud/mury/releases/download/1.4.0/Mury-ABC6p-1.4.0-win32.msi)
+- [Mam tylko **ABC Obiekt3D** na kluczu USB](https://github.com/pkpkbud/mury/releases/download/1.4.0/Mury-ABC6s-1.4.0-win32.msi)
 
 Moduł instalujemy w lokalizacji programu **ABC** w folderze *EXE*
 (np. *C:\ABC6\EXE*).
@@ -143,6 +143,8 @@ notkę z oddziaływaniem wiatru do schowka.
 ![image](https://github.com/user-attachments/assets/54565d45-8f08-4fb2-bd91-2fd29e4cac7b)
 
 **Siły oraz momenty przyjmowane w module są wyliczone na podstawie obliczeń statycznych.**
+**Gdy podpora typu ściana została zadana z przegubem u góry (bez ściany NAD) stosowany
+jest model przegubowy z normy PN-B-03002 jako bezpieczniejszy.**
 **W programie ABC należy uwzględniać ewentualne obciążenia z wyższych kondygnacji.**
 Po włączeniu opcji `Własne` wszystkie wartości obciążeń można dowolnie modyfikować oraz
 można wybrać wariant z obwiedni sił. W ten sposób można zadać własną siłę skupioną,
