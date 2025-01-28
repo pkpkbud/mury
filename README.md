@@ -50,7 +50,15 @@ Spis zmian oraz poprzednie wersje są dostępne w serwisie
 [GitHub](https://github.com/pkpkbud/mury/releases).
 
 ```
+LICENCJA © 2023÷2025 PKPKBUD
+============================
 Moduł podlega ochronie prawa autorskiego bez udzielania jakiejkolwiek gwarancji.
+Podczas jego tworzenia, autor posługiwał się aktualnymi normami z biblioteki PKN,
+poprzez Portal Polskiej Izby Inżynierów Budownictwa oraz literaturą techniczną,
+spośród której olbrzymim wsparciem była książka prof. dr hab. inż. Łukasza Drobca pt.
+"Konstrukcje murowe według Eurokodu 6 i norm związanych" (wydanie pierwsze).
+Moduł korzysta z bibliotek na otwartych licencjach typu: PSFL, BSD-3, Apache 2.0, MIT,
+takich jak: cryptography, cx-Freeze, matplotlib, numpy, Pillow, python-docx, pywin32.
 Jest sprzedawany jako narzędzie do wsparcia zarobkowego procesu projektowego.
 Jest dostarczany "taki jaki jest" i nie ma gwarancji, że jest wolny od błędów pomimo
 dołożenia wszelkich starań. Autor modułu nie ponosi odpowiedzialności za skutki powstałe
